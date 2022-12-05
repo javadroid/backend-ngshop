@@ -16,7 +16,6 @@ router.post(`/`,(req, res, next) => {
         product: req.body.product,
         image:req.body.image,
         quantity: req.body.quantity
-
         
     }) 
     newOrderitem.save()
